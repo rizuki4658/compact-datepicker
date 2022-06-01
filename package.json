@@ -2,19 +2,16 @@
   "name": "compact-datepicker",
   "version": "0.0.1",
   "description": "",
-
   "main": "dist/compact-datepicker.ssr.js",
   "browser": "dist/compact-datepicker.esm.js",
   "module": "dist/compact-datepicker.esm.js",
   "unpkg": "dist/compact-datepicker.min.js",
   "types": "dist/types/src/entry.esm.d.ts",
-
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
   "sideEffects": false,
-
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
     "prebuild": "rimraf ./dist",
@@ -24,10 +21,7 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
     "postbuild": "rimraf ./dist/types/dev ./dist/types/src/entry.d.ts"
   },
-
-  "dependencies": {
-  },
-
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
