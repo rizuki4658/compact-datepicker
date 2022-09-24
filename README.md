@@ -1,9 +1,9 @@
-### Compact DatePicker
-Chat for your site business using facebook customer chat.
+### Compact DatePicker.
+Compact datepicker is component for vue 3. This component is have flexibelity with all language.
 
 ##### Install
 
-`$ npm install vue-facebook-messanger`
+`$ npm install compact-datepicker`
 
 #### How to Use
 
